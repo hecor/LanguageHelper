@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LHViewController : UIViewController
+@interface LHViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
+{
+    UIImage *finalImage;
+}
+
+
+@property (nonatomic,weak) IBOutlet UIImageView *imageView;
+@property (nonatomic,weak) IBOutlet UIToolbar *toolbar;
 
 @end
