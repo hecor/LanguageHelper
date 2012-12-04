@@ -1,0 +1,6 @@
+[submodule "LanguageHelper/tesseract-ios"]
+	path = LanguageHelper/tesseract-ios
+	url = https://github.com/hecor/tesseract-ios.git
+[submodule "LanguageHelper/tesseract-ios-lib"]
+	path = LanguageHelper/tesseract-ios-lib
+	url = https://github.com/ldiqual/tesseract-ios-lib.git
